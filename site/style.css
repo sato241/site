@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@font-face{
+    font-family: "myfont";
+    src: url("fonts/odstemplik/odstemplik.otf") format("opentype"), url("fonts/odstemplik/odstemplikBold.otf") format("opentype")
+}
+
+.top_img{
+    background-image: url("imgs/img01.jpg") ;
+    background-size: cover ;
+    background-attachment: fixed;
+    }
+    
+.top_text{
+    text-align: center;
+    padding:250px;
+}
+
+.top_text h1{
+    font-size: 100px;
+    font-family: "myfont";
+}
+
+nav h3{
+    font-family: "myfont" ;
+}
+
+nav .fa-solid,nav .fa-regular{
+    color: #888;
+}
+
+.night{
+background-image: url("imgs/fix-bg.jpg") ;
+background-size: cover ;
+background-attachment: fixed;
+}
+
+.night_text{
+    text-align: center;
+    padding:250px;
+}
+
+.night_text h2{
+    font-size: 100px;
+    font-family: "myfont";
+    margin-bottom: 40px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.servise{
+    background-color: #333333;
+    padding: 50px;
+}
+
+.servise h2{
+    text-align: center;
+    font-family: "myfont";
+    font-size: 80px ;
+}
+
+.servise-img{
+    width: 100%;
+}
+
+
+
+.btn btn-outline-light{
+    text-align: left;
+}
+
+.servise-text{
+    padding: 30px;
+}
+
+.info{
+    border:solid 3px white;
+    margin: 20px;
+    padding: 25px;
+
+}
+    
+.icon{
+    font-size: 100px;
+}
+
+footer{
+    background-color: #333333;
+    padding: 30px;
+    }
+    
+footer p{
+    text-align: right;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: #ffffff
+    
+}
+
+
+
